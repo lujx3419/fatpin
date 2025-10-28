@@ -64,5 +64,5 @@ portpy_data/*.h5
 
 # Backup files
 *.bak
-*_backup/
+# *_backup/  # Commented out to include original_code_backup
 

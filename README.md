@@ -11,22 +11,39 @@ The **PortPy version** (`train_portpy.py`) replaces MATLAB dependencies with Por
 
 ## Requirements
 
+### For PortPy Version (Recommended)
 - Python 3.x
 - PyTorch
 - NumPy
 - scikit-fda
 - SciPy
-- PortPy (for the refactored version)
+- PortPy
+
+### For Original MATLAB Version
+- Python 3.x
+- PyTorch
+- NumPy
+- scikit-fda
+- SciPy
+- MATLAB R2021a (with MATLAB Engine for Python)
+- MatRad toolkit
 
 ## Train Model
 
 ### Original MATLAB Version
-```python
+The original MATLAB-based code is located in `FatPIN/original_code_backup/` directory:
+```bash
+cd FatPIN/original_code_backup
 python train.py
 ```
 
+Note: This version requires MATLAB R2021a and MATLAB Engine for Python to be installed.
+
 ### PortPy Version (Recommended)
-```python
+```bash
+cd FatPIN
 python train_portpy.py
 ```
+
+The PortPy version is recommended as it doesn't require MATLAB installation.
 
