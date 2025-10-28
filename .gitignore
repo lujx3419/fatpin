@@ -58,6 +58,10 @@ result/
 portpy_data/*.mat
 portpy_data/*.h5
 
+# Cache directories
+.hf_cache/
+*.cache
+
 # Backup files
 *.bak
 *_backup/
