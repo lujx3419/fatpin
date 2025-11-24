@@ -1,0 +1,10 @@
+# GPU-accelerated requirements for FatPIN (optional)
+# Install a matching torch build for your CUDA version first, for example:
+# pip install torch --index-url https://download.pytorch.org/whl/cu118
+# Then install qpth
+qpth
+# Optional helpers used in repo
+scikit-fda
+scipy
+numpy
+cvxpy
